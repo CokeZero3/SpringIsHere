@@ -1,4 +1,4 @@
-package com.tsolution.Slavery;
+package com.tsolution.Board;
 
 import java.text.DateFormat;
 import java.util.Date;
