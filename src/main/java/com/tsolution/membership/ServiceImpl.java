@@ -1,4 +1,4 @@
-package com.care.membership;
+package com.tsolution.membership;
 
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.support.SessionStatus;
 
-import com.jin.mail.SHA;
 
 @Service
 public class ServiceImpl implements IService {
@@ -91,8 +90,8 @@ public class ServiceImpl implements IService {
 		
 		String retId = iDao.FindInfoProc(map);
 		String pass = "P@ssW0rd";
-		SHA sha = new SHA();
-		sha.encryptSHA512(pass);
+//		SHA sha = new SHA();
+//		sha.encryptSHA512(pass);
 		/*
 		 * ID가 존재하는 경우 이메일로 패스워드 전송
 		 * 별도로 member table에 패스워드 업데이트

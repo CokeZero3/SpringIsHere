@@ -1,4 +1,4 @@
-package com.care.membership;
+package com.tsolution.membership;
 
 public class Member extends Login{
 	private String email;

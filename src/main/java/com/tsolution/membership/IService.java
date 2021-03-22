@@ -1,4 +1,4 @@
-package com.care.membership;
+package com.tsolution.membership;
 
 import java.util.List;
 import java.util.Map;

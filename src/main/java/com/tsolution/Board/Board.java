@@ -1,4 +1,4 @@
-package com.care.Board;
+package com.tsolution.Board;
 
 public class Board {
 	private int no;

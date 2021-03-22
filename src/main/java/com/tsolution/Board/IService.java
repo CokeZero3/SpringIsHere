@@ -1,4 +1,4 @@
-package com.care.Board;
+package com.tsolution.Board;
 
 import java.util.List;
 

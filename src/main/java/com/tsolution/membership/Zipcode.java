@@ -1,4 +1,4 @@
-package com.care.membership;
+package com.tsolution.membership;
 
 //우편번호 검색 
 public class Zipcode {
